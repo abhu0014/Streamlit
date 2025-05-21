@@ -1,3 +1,14 @@
+import os
+os.environ["STREAMLIT_HOME"] = "/tmp"
+os.environ["STREAMLIT_RUNTIME_HOME"] = "/tmp"
+os.environ["STREAMLIT_STATIC_HOME"] = "/tmp"
+os.environ["STREAMLIT_CONFIG_DIR"] = "/tmp"
+os.environ["STREAMLIT_DATA_DIR"] = "/tmp"
+os.environ["STREAMLIT_CACHE_DIR"] = "/tmp"
+os.environ["STREAMLIT_LOG_DIR"] = "/tmp"
+os.environ["STREAMLIT_ML_CACHE"] = "/tmp"
+os.environ["STREAMLIT_BROWSER_GATHERUSAGESTATS"] = "false"
+
 import streamlit as st
 import numpy as np
 import cv2
